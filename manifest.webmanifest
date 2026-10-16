@@ -1,0 +1,14 @@
+{
+  "name": "Dance 备考 · NYSTCE 164",
+  "short_name": "Dance备考",
+  "description": "NYSTCE Field 164 Dance CST 中英双语备考",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4f6",
+  "theme_color": "#c2387a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

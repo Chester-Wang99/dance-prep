@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>Dance 备考</title>
+<meta name="description" content="NYSTCE Field 164 Dance CST 中英双语备考">
+<meta name="theme-color" content="#c2387a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Dance备考">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="topbar">
+  <button id="backBtn" class="icon-btn" aria-label="返回" hidden>‹</button>
+  <h1 id="title">Dance 备考</h1>
+  <span id="topRight"></span>
+</header>
+<main id="view"></main>
+<nav id="tabbar">
+  <a href="#home" data-tab="home"><span class="ti">🏠</span><span>首页</span></a>
+  <a href="#learn" data-tab="learn"><span class="ti">📖</span><span>知识点</span></a>
+  <a href="#practice" data-tab="practice"><span class="ti">✏️</span><span>刷题</span></a>
+  <a href="#vocab" data-tab="vocab"><span class="ti">🩰</span><span>术语</span></a>
+  <a href="#write" data-tab="write"><span class="ti">📝</span><span>写作</span></a>
+</nav>
+<div id="sheet" class="sheet" hidden>
+  <div class="sheet-panel">
+    <div class="sheet-head"><b id="sheetTitle"></b><button class="icon-btn" id="sheetClose">✕</button></div>
+    <div id="sheetBody" class="sheet-body"></div>
+  </div>
+</div>
+<script src="data/notes.js"></script>
+<script src="data/q1.js"></script>
+<script src="data/q2.js"></script>
+<script src="data/q3.js"></script>
+<script src="data/q4.js"></script>
+<script src="data/q5.js"></script>
+<script src="data/vocab.js"></script>
+<script src="data/writing.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
